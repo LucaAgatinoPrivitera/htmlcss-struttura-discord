@@ -1,4 +1,4 @@
-/* Generico */
+/********* Generico *********/
 *{
     margin: 0;
     padding: 0;
@@ -27,9 +27,12 @@
     background-color: rgb(255, 255, 255);
     padding: 20px 0 20px 0;
 }
-/*  */
+.sfondo:nth-child(even){
+    background-color: grey;
+}
+/*********  *********/
 
-
+/* Header */
 header{
     background-color: aquamarine;
     height: 3rem;
@@ -57,19 +60,12 @@ header span{
     flex-grow: 1;
     width: 50%;
 }
+/* Header */
 
 main{
     margin: 20 px auto;
 }
-main:nth-child(1){
-    background-color: blue;
-}
-.sfondo:nth-child(even){
-    background-color: grey;
-}
-main:nth-child(odd){
-    background-color: white;
-}
+
 #primo{
     background-color: blue;
 }
@@ -82,10 +78,6 @@ section{
 }
 
 
-.prova{
-    width: 45vw;
-    height: 30vh;
-}
 .flex{
     display: flex;
     justify-content: center;
