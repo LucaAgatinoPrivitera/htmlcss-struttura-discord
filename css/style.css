@@ -9,6 +9,11 @@
     border: 2px solid green;
     border-style: dotted;
 }
+
+.sfondo{
+    background-color: blue;
+    padding: 20px 0;
+}
 /*  */
 
 
@@ -22,6 +27,7 @@ nav{
     flex-grow: 0;
     justify-content: center;
     margin: auto;
+    height: 100%;
 }
 
 nav li{
@@ -30,6 +36,9 @@ nav li{
     text-align: center;
     width: 25%;
 }
+span{
+    margin: auto;
+}
 .nav_big{
     flex-grow: 1;
     width: 50%;
@@ -37,7 +46,6 @@ nav li{
 
 main{
     margin: 20 px auto;
-    background-color: blue;
 }
 main:nth-child(1){
     background-color: blue;
@@ -48,12 +56,7 @@ main:nth-child(even){
 main:nth-child(odd){
     background-color: white;
 }
-.sfondo{
-    background-color: blue;
-    width: 100vw;
-    height: 30vh;
-    padding: 20px 0;
-}
+
 main div{
     width: 45vw;
     height: 100%;
@@ -67,8 +70,9 @@ main div{
 .flex{
     display: flex;
 }
-.articolo{
-    width: calc(100% - 33%);
+.sezione{
+    width: 100vw;
+    height: 30vh;
     background-color: lightblue;
 }
 .lista{
