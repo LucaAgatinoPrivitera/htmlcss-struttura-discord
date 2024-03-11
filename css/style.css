@@ -9,9 +9,22 @@
     border: 2px solid green;
     border-style: dotted;
 }
+.bordo-lati{
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    border-style: dotted;
+}
 
 .sfondo{
     background-color: blue;
+    padding: 20px 0;
+}
+.sfondo:nth-child(even){
+    background-color: rgb(80, 80, 82);
+    padding: 20px 0;
+}
+.sfondo:nth-child(odd){
+    background-color: rgb(255, 255, 255);
     padding: 20px 0;
 }
 /*  */
@@ -38,6 +51,7 @@ nav li{
 }
 span{
     margin: auto;
+    background-color: orange;
 }
 .nav_big{
     flex-grow: 1;
@@ -50,31 +64,62 @@ main{
 main:nth-child(1){
     background-color: blue;
 }
-main:nth-child(even){
+.sfondo:nth-child(even){
     background-color: grey;
 }
 main:nth-child(odd){
     background-color: white;
 }
+#primo{
+    background-color: blue;
+}
 
-main div{
-    width: 45vw;
+section{
+    width: 30vw;
     height: 100%;
-    background-color: pink;
+    background-color: rgb(226, 111, 130);
     margin: auto;
 }
+
+
 .prova{
     width: 45vw;
     height: 30vh;
 }
 .flex{
     display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenitore{
+    width: 60%;
+    height: 100%;
 }
 .sezione{
     width: 100vw;
     height: 30vh;
-    background-color: lightblue;
+    background-color: blue;
 }
-.lista{
-    width: calc(100% - 66%);
+
+.sezione-big-1{
+    width: calc(100% - 30%);
+    height: 30vh;
+    background-color: rgb(77, 88, 233);
+    border: 2px solid green;
+    border-style: dotted;
+}
+.sezione-big-2{
+    width: calc(100% - 70%);
+    height: 30vh;
+    background-color: pink;
+    border: 2px solid green;
+    border-style: dotted;
+}
+
+.sezione-noflex{
+    background-color: green;
+    width: 100%;
+    height: 40vh;
+    margin: auto;
 }
