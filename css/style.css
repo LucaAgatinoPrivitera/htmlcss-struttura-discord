@@ -21,6 +21,7 @@ nav{
     width: 50vw;
     flex-grow: 0;
     justify-content: center;
+    margin: auto;
 }
 
 nav li{
