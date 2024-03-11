@@ -17,15 +17,15 @@
 
 .sfondo{
     background-color: blue;
-    padding: 20px 0;
+    padding: 20px 0 20px 0;
 }
 .sfondo:nth-child(even){
     background-color: rgb(80, 80, 82);
-    padding: 20px 0;
+    padding: 20px 0 20px 0;
 }
 .sfondo:nth-child(odd){
     background-color: rgb(255, 255, 255);
-    padding: 20px 0;
+    padding: 20px 0 20px 0;
 }
 /*  */
 
@@ -97,7 +97,6 @@ section{
     height: 100%;
 }
 .sezione{
-    width: 100vw;
     height: 30vh;
     background-color: blue;
 }
@@ -120,6 +119,39 @@ section{
 .sezione-noflex{
     background-color: green;
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     margin: auto;
 }
+
+/* Footer */
+footer{
+    background-color: rgb(71, 71, 71);
+}
+
+.sezione-big-3{
+    width: calc(100% - 30%);
+    height: 30vh;
+    background-color: rgb(238, 159, 128);
+    border: 2px solid green;
+    border-style: dotted;
+}
+.sezione-big-4{
+    width: calc(100% - 70%);
+    height: 30vh;
+    background-color: rgb(57, 185, 224);
+    border: 2px solid green;
+    border-style: dotted;
+}
+
+.footerbuttons{
+    height: 30px;
+}
+.footerbuttons-pulsanti {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30, 159, 168);
+    margin: auto;
+    padding: 10px;
+}
+
