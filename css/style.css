@@ -9,18 +9,18 @@
     border: 2px solid green;
     border-style: dotted;
 }
-.bordo-lati{
+/* .bordo-lati{
     border-left: 2px solid green;
     border-right: 2px solid green;
     border-style: dotted;
-}
+} */
 
 .sfondo{
-    background-color: blue;
+    background-color: rgb(64, 78, 237);
     padding: 20px 0 20px 0;
 }
 .sfondo:nth-child(even){
-    background-color: rgb(80, 80, 82);
+    background-color: rgb(246, 246, 246);
     padding: 20px 0 20px 0;
 }
 .sfondo:nth-child(odd){
@@ -28,9 +28,10 @@
     padding: 20px 0 20px 0;
 }
 .sfondo:nth-child(even){
-    background-color: grey;
+    background-color: rgb(246, 246, 246);
 }
-/*********  *********/
+/********* Generico *********/
+
 
 /* Header */
 header{
@@ -55,6 +56,7 @@ nav li{
 header span{
     margin: auto;
     background-color: orange;
+    color: white;
 }
 .nav_big{
     flex-grow: 1;
@@ -62,12 +64,14 @@ header span{
 }
 /* Header */
 
+
+/* Main */
 main{
     margin: 20 px auto;
 }
 
 #primo{
-    background-color: blue;
+    background-color: rgb(64, 78, 237);
 }
 
 section{
@@ -93,14 +97,14 @@ section{
     background-color: blue;
 }
 
-.sezione-big-1{
+.sezione-big{
     width: calc(100% - 30%);
     height: 30vh;
     background-color: rgb(77, 88, 233);
     border: 2px solid green;
     border-style: dotted;
 }
-.sezione-big-2{
+.sezione-small{
     width: calc(100% - 70%);
     height: 30vh;
     background-color: pink;
@@ -114,25 +118,19 @@ section{
     height: 45vh;
     margin: auto;
 }
+/* Main */
+
 
 /* Footer */
 footer{
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(35, 39, 42);
 }
 
-.sezione-big-3{
-    width: calc(100% - 30%);
-    height: 30vh;
+footer .sezione-big{
     background-color: rgb(238, 159, 128);
-    border: 2px solid green;
-    border-style: dotted;
 }
-.sezione-big-4{
-    width: calc(100% - 70%);
-    height: 30vh;
+footer .sezione-small{
     background-color: rgb(57, 185, 224);
-    border: 2px solid green;
-    border-style: dotted;
 }
 
 .footerbuttons{
@@ -150,4 +148,10 @@ footer{
 footer span{
     margin: 0;
     background-color: orange;
+    color: white;
+}
+
+hr{
+    width: 60%;
+    margin: auto;
 }
